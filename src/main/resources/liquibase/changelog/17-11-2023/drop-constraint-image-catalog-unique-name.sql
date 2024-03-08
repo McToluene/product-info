@@ -1,0 +1,2 @@
+ALTER TABLE image_catalog
+DROP CONSTRAINT unique_image_catalog_image_name;

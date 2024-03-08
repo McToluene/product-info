@@ -1,0 +1,1 @@
+ALTER TABLE variants_version ADD COLUMN approval_status character varying(255);

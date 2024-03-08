@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      uri: https://config-server.mctoluene.am
+  application:
+    name: product-information-management-service

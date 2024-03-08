@@ -1,0 +1,163 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+
+    <include file="changelog/16-01-2023/product-information-tables.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/alter-product-category-table.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/create-product-category-hierarchy.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/alter-product-category-table.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/create-property-table.sql" relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/insert-product-category-depth-property.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/update-product-category-hierarchy.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/alter-product-category-table-add-url-column.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/products-n-variants-table.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/upload-image-table.sql" relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/alter-upload-image-table.sql" relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/products_awaiting_approval.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/alter-imageCatalog-table.sql" relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/products_versioning_tables.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/alter-products-version-table.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/sku-unique-constraint.sql" relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/update-sku-unique-constraint.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/create-measuring-unit-table.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/create-warranty-type-table.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/update-variant-constraint.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/drop-column-product-awaiting-approval.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/drop-column-product-version.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/alter-table-product-awaiting-approval.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/alter-table-product-version.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/16-01-2023/create-failed-product-table.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/22-02-2023/drop-warranty-type-column.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/22-02-2023/add-warranty-type-id-column.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/10-03-2023/createVariantLocation.sql" relativeToChangelogFile="true" />
+    <include file="changelog/22-02-2023/drop-variants-table-constraint.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/22-02-2023/variant-table-drop-column.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/22-02-2023/variant-table-add-column.sql" relativeToChangelogFile="true" />
+    <include file="changelog/29-03-2023/variant_table_update_product_id.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/13-04-2023/variant_awaiting_approval.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/13-04-2023/alter_variant_awaiting_approval.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/14-04-2023/alter-variant-version.sql" relativeToChangelogFile="true" />
+    <include file="changelog/12-04-2023/table-cleanup.sql" relativeToChangelogFile="true" />
+    <include file="changelog/13-04-2023/alter_image_catalog.sql" relativeToChangelogFile="true" />
+    <include file="changelog/14-04-2023/alter-variant-awaiting-approval.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/14-04-2023/alter-variant-awaiting-approval-drop-columns.sql"
+        relativeToChangelogFile="true" />
+
+    <include file="changelog/17-04-2023/alter_variants-awaiting-approval.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/17-04-2023/alter_variants_version.sql" relativeToChangelogFile="true" />
+    <include file="changelog/17-04-2023/dropColumns_variants_version.sql"
+        relativeToChangelogFile="true" />
+
+
+    <include file="changelog/14-04-2023/dropColumn_variant_awaiting_approval_IsNew.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/20-04-2023/drop_column_product.sql" relativeToChangelogFile="true" />
+    <include file="changelog/02-05-2023/alter_variants_awaiting_approval.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/02-05-2023/alter_variants_awaiting_approvaltypechange_to text.sql"
+        relativeToChangelogFile="true" />
+
+    <include file="changelog/03-05-2023/alter_variant_awaiting_approval.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/03-05-2023/change_product_details_type.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/07-06-2023/added-index-product-table.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/14-06-2023/alter_product-id_variants_awaiting_approval.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/18-07-2023/update-measuring-unit-to-stockone-supported-units.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/21-08-2023/alter-variant-version.sql" relativeToChangelogFile="true" />
+    <include file="changelog/21-08-2023/alter-variant-awaiting-approval.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/21-08-2023/add-product-variant-id-to-image-catalog.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/13-09-2023/added-index-product-variant-table.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/19-10-2023/alter_variant.sql" relativeToChangelogFile="true" />
+    <include file="changelog/27-10-2023/alter_product.sql" relativeToChangelogFile="true" />
+    <include file="changelog/31-10-2023/add-product-variant-name.sql" relativeToChangelogFile="true" />
+    <include file="changelog/31-10-2023/brand-manufacturer-unique-constraint.sql"
+        relativeToChangelogFile="true" />
+    <include file="changelog/31-10-2023/add-unique-constraint.sql" relativeToChangelogFile="true" />
+    <include file="changelog/06-11-2023/update_null_manufacturers_on_brand.sql"
+        relativeToChangelogFile="true" />
+
+
+    <include file="changelog/15-11-2023/alter-table-product-variant-add-column-variant-sku.sql"
+        relativeToChangelogFile="true" />
+    <include
+        file="changelog/15-11-2023/alter-table-product-variant-add-column-variant-description.sql"
+        relativeToChangelogFile="true" />
+
+    <include
+        file="changelog/23-11-2023/update_product_variant_table_with_sku.sql"
+        relativeToChangelogFile="true" />
+
+    <changeSet id="rename_column_name" author="admin">
+        <preConditions onFail="MARK_RAN">
+            <columnExists tableName="product_variants" columnName="name" />
+        </preConditions>
+        <renameColumn tableName="product_variants" oldColumnName="name" newColumnName="variant_name"
+            columnDataType="varchar(255)" />
+    </changeSet>
+
+    <include file="changelog/22-11-2023/update-manufacturer.sql" relativeToChangelogFile="true" />
+    <include file="changelog/25-11-2023/add_weight_variant.sql" relativeToChangelogFile="true" />
+    <include file="changelog/28-11-2023/drop_unique_brand_name.sql" relativeToChangelogFile="true" />
+    <include file="changelog/28-11-2023_001/image_catalog_unique.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/28-11-2023_002/image_catalog_unique.sql" relativeToChangelogFile="true"/>
+
+    <include file="changelog/01-12-2023/add-reason-to-failed-products.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/05-12-2023/update-name-flag-vat.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/05-12-2023/update-name-isvated-awaiting-approval.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/05-12-2023/add-vated-product.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/05-12-2023/add-vat-value-to-product-variant.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/05-12-2023/add-vat-value-to-product-variant-awaiting-approval.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/05-12-2023/add-default-vat-value.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/05-12-2023/add-min-and-max-vat-to-product.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/05-12-2023/add-default-isVat.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/17-01-2024/set-product-vated-to-false.sql" relativeToChangelogFile="true"/>
+    <include file="changelog/23-01-2024/add-country-id-product-category.sql" relativeToChangelogFile="true"/>
+    <changeSet id="update_country_when_is _null" author="admin">
+       <sql dbms="postgresql" >
+           update variants_awaiting_approval set country_id='f271dbc7-6559-4a6b-b419-fde0ab703c5f' where country_id is null
+       </sql>
+    </changeSet>
+
+    <changeSet id="update_country_id_product_category_when_is _null" author="admin">
+        <sql dbms="postgresql" >
+            update product_categories set country_id='f271dbc7-6559-4a6b-b419-fde0ab703c5f' where country_id is null
+        </sql>
+    </changeSet>
+</databaseChangeLog>

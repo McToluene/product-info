@@ -1,0 +1,1 @@
+ALTER TABLE variants_awaiting_approval ALTER COLUMN product_id SET NOT NULL;

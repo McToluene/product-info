@@ -1,0 +1,2 @@
+ALTER TABLE products_awaiting_approval
+DROP COLUMN measurement_unit;

@@ -1,0 +1,2 @@
+ALTER TABLE products_awaiting_approval
+ADD measuring_unit_id uuid;
